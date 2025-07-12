@@ -20,9 +20,9 @@ Follow the steps below to set up and run this project on your local machine.
 - Copy the extracted project folder.
 - Paste it into your XAMPP `htdocs` directory:
 
-C:/xampp/htdocs/
-
-
+  ```
+  C:/xampp/htdocs/
+  ```
 
 ---
 
@@ -30,8 +30,8 @@ C:/xampp/htdocs/
 
 - Open the **XAMPP Control Panel**.
 - Start the following services:
-- ✅ Apache
-- ✅ MySQL
+  - ✅ Apache
+  - ✅ MySQL
 
 ---
 
@@ -39,30 +39,46 @@ C:/xampp/htdocs/
 
 1. In your browser, go to:
 
-http://localhost/phpmyadmin/
-
+   ```
+   http://localhost/phpmyadmin/
+   ```
 
 2. Click **New** in the left sidebar.
-3. Create a new database:
-Voting_db
+3. Enter the name:
+
+   ```
+   Voting_db
+   ```
 
 4. Click **Create**.
 5. Go to the **Import** tab at the top.
 6. Click **Browse** and locate the file:
-(found inside the `database` folder of the extracted project).
-Voting_db.sql
+
+   ```
+   Voting_db.sql
+   ```
+
+   (found inside the `database` folder of the extracted project).
+
 7. Click **Go** to import the database.
-http://localhost/Voting-Management-System
+
 ---
 
 ### 🌐 5. Run the Project
 
-Open a browser and navigate to:
+- Open a new browser tab and go to:
 
+  ```
+  http://localhost/Voting-Management-System
+  ```
 
-Make sure the folder name in `htdocs` is exactly:
-Voting-Management-System
-If you renamed the folder, update the URL accordingly.
+- Make sure the folder name in `htdocs` is exactly:
+
+  ```
+  Voting-Management-System
+  ```
+
+  If you renamed the folder, update the URL accordingly.
 
 ---
 
@@ -70,8 +86,11 @@ If you renamed the folder, update the URL accordingly.
 
 Use the following credentials to log in:
 
+```
 Username: admin
 Password: admin123
+```
+
 ---
 
 ## 📌 Notes
