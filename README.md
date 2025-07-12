@@ -104,6 +104,8 @@ Password: admin123
 
  - Git
  - XAMPP
- - Code Editor, preferred- VsCode (Optional, but recommended)
+ - Code Editor, preferred- VsCode (Optional, but recommended)\
 
-## Note: README IS AI GENERATED
+---
+
+## Note: README is AI Generated
