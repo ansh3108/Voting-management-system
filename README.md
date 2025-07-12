@@ -97,3 +97,7 @@ Password: admin123
 
 - Ensure that Apache and MySQL are running in XAMPP before accessing the project.
 - Do not change the database name or the SQL file name unless you update the code accordingly.
+
+
+
+## Note: README IS AI GENERATED
