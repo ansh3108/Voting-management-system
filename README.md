@@ -8,6 +8,16 @@ Follow the steps below to set up and run this project on your local machine.
 
 ---
 
+
+## Prerequisites
+
+ - Git
+ - XAMPP
+ - Code Editor, preferred- VsCode (Optional, but recommended)
+
+
+---
+
 ### 📥 1. Download and Extract
 
 - Download the ZIP file of this repository.
@@ -100,13 +110,7 @@ Password: admin123
 
 ---
 
-## Prerequisites
 
- - Git
- - XAMPP
- - Code Editor, preferred- VsCode (Optional, but recommended)
-
----
 
 ## Cast over local network
 
