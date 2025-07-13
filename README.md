@@ -104,7 +104,17 @@ Password: admin123
 
  - Git
  - XAMPP
- - Code Editor, preferred- VsCode (Optional, but recommended)\
+ - Code Editor, preferred- VsCode (Optional, but recommended)
+
+---
+
+## Cast over local network
+
+ - Get your local IPV4 Address
+ - Go to Config of Apache server in xampp (Apache (httpd-xampp.conf))
+ - Search for `phpmyadmin` 
+ - Replace `denied` to `granted`
+ - Restart apache server from xampp control panel
 
 ---
 
