@@ -17,15 +17,11 @@
  ?>
 
 </head>
-<style>
-	body{
-        background: #80808045;
-  }
-</style>
 
-<body>
+<body class="admin-shell">
 	<?php include 'topbar.php' ?>
 	<?php include 'navbar.php' ?>
+  <div id="sidebar-overlay"></div>
   <div class="toast" id="alert_toast" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-body text-white">
     </div>
@@ -126,6 +122,21 @@ window._conf = function($msg='',$func='',$params = []){
     $('#preloader').fadeOut('fast', function() {
         $(this).remove();
       })
+
+    $('#sidebar-toggle').on('click', function(){
+      $('body').toggleClass('sidebar-collapsed')
+      $('body').toggleClass('sidebar-open')
+    })
+
+    $('#sidebar-overlay').on('click', function(){
+      $('body').removeClass('sidebar-open')
+    })
+
+    $('#sidebar .nav-item').on('click', function(){
+      if(window.innerWidth <= 991){
+        $('body').removeClass('sidebar-open')
+      }
+    })
   })
 </script>	
 </html>

@@ -21,16 +21,25 @@
 ?>
 <style>
 	.candidate {
-	    margin: auto;
-	    width: 16vw;
-	    padding: 10px;
-	    border-radius: 3px;
-	    margin-bottom: 1em
+	    margin: 0 0 1rem 0;
+	    width: 100%;
+	    padding: 1rem;
+	    border-radius: 14px;
+	    border: 1px solid #d4deec;
+	    background: #ffffff;
+	    box-shadow: 0 8px 20px rgba(23, 53, 89, 0.08);
 	}
 	.candidate img {
-	    height: 14vh;
-	    width: 8vw;
+	    height: 108px;
+	    width: 108px;
 	    margin: auto;
+	    border-radius: 12px;
+	    object-fit: cover;
+	}
+	.card-body .row.mt-3 {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 1rem;
 	}
 	
 	

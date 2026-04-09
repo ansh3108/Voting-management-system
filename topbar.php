@@ -1,26 +1,24 @@
-<style>
-	.logo {
-    margin: auto;
-    font-size: 20px;
-    background: white;
-    padding: 5px 11px;
-    border-radius: 50% 50%;
-    color: #000000b3;
-}
-</style>
-
-<nav class="navbar navbar-dark bg-dark fixed-top " style="padding:0;">
-  <div class="container-fluid mt-2 mb-2">
-  	<div class="col-lg-12">
-  		<div class="col-md-1 float-left" style="display: flex;">
-  			<div class="logo">
-  				<i class="fa fa-poll-h"></i>
-  			</div>
-  		</div>
-	  	<div class="col-md-2 float-right text-white">
-	  		<a href="ajax.php?action=logout" class="text-white"><?php echo $_SESSION['login_name'] ?> <i class="fa fa-power-off"></i></a>
-	    </div>
-    </div>
-  </div>
-  
+<nav class="navbar fixed-top app-topbar">
+	<div class="container-fluid app-topbar-inner">
+		<div class="topbar-left">
+			<button type="button" class="btn topbar-toggle" id="sidebar-toggle" aria-label="Toggle menu">
+				<i class="fa fa-bars"></i>
+			</button>
+			<a href="index.php?page=home" class="brand-wrap text-decoration-none">
+				<span class="brand-mark"><i class="fa fa-poll-h"></i></span>
+				<span class="brand-copy">
+					<strong>Jiva Elections</strong>
+				</span>
+			</a>
+		</div>
+		<div class="topbar-right">
+			<span class="user-chip">
+				<i class="fa fa-user-circle mr-1"></i>
+				<?php echo $_SESSION['login_name'] ?>
+			</span>
+			<a href="ajax.php?action=logout" class="btn btn-sm app-logout-btn">
+				<i class="fa fa-power-off mr-1"></i> Logout
+			</a>
+		</div>
+	</div>
 </nav>

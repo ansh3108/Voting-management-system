@@ -32,31 +32,46 @@
 ?>
 <style>
 	.candidate {
-	    margin: auto;
-	    width: 16vw;
-	    padding: 10px;
+	    margin: 0 0 1rem 0;
+	    width: 100%;
+	    padding: 1rem;
 	    cursor: pointer;
-	    border-radius: 3px;
-	    margin-bottom: 1em
+	    border-radius: 14px;
+	    border: 1px solid #d4deec;
+	    background: #ffffff;
+	    transition: all 0.25s ease;
 	}
 	.candidate:hover {
-	    background-color: #80808030;
-	    box-shadow: 2.5px 3px #00000063;
+	    border-color: #7a9ec8;
+	    transform: translateY(-2px);
+	    box-shadow: 0 12px 24px rgba(23, 53, 89, 0.12);
 	}
 	.candidate img {
-	    height: 14vh;
-	    width: 8vw;
+	    height: 108px;
+	    width: 108px;
 	    margin: auto;
+	    border-radius: 12px;
+	    object-fit: cover;
 	}
 	span.rem_btn {
 	    position: absolute;
-	    right: 0;
-	    top: -1em;
+	    right: .75rem;
+	    top: .75rem;
 	    z-index: 10;
 	    display: none
 	}
 	span.rem_btn.active{
 		display: block
+	}
+	#manage-vote .row.mt-3 {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 1rem;
+	}
+	#manage-vote button.btn-block {
+		max-width: 320px;
+		margin: 1.25rem auto .5rem;
+		display: block;
 	}
 	
 	

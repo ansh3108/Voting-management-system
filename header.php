@@ -4,7 +4,7 @@
   
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/font-awesome/css/all.min.css">
 
 
@@ -21,7 +21,8 @@
 
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <?php $style_version = @filemtime(__DIR__ . '/assets/css/style.css'); ?>
+  <link href="assets/css/style.css?v=<?php echo $style_version ? $style_version : time(); ?>" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="assets/css/jquery-te-1.4.0.css">
   
   <script src="assets/vendor/jquery/jquery.min.js"></script>

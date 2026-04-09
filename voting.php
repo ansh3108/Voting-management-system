@@ -17,17 +17,8 @@
  ?>
 
 </head>
-<style>
-	body{
-        background: #80808045;
-  }
-  main{
-  	margin-left: unset !important;
-  	width: calc(100%) !important
-  }
-</style>
 
-<body>
+<body class="admin-shell no-sidebar">
 	<?php include 'topbar.php' ?>
   <div class="toast" id="alert_toast" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-body text-white">
@@ -129,6 +120,11 @@ window._conf = function($msg='',$func='',$params = []){
     $('#preloader').fadeOut('fast', function() {
         $(this).remove();
       })
+
+    $('#sidebar-toggle').on('click', function(){
+      $('body').toggleClass('sidebar-collapsed')
+      $('body').toggleClass('sidebar-open')
+    })
   })
   
   // Handle back button navigation properly
