@@ -122,4 +122,3 @@ Password: admin123
 
 ---
 
-## Note: README is AI Generated
