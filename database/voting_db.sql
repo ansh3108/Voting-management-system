@@ -643,7 +643,7 @@ CREATE TABLE `voting_list` (
 --
 
 INSERT INTO `voting_list` (`id`, `title`, `description`, `is_default`) VALUES
-(5, 'Sample', 'this is a sample', 1);
+(5, '2026', 'Elections for year', 1);
 
 -- --------------------------------------------------------
 
