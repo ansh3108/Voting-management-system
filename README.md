@@ -1,8 +1,8 @@
-# 🗳️ Voting Management System
+# Voting Management System
 
 A simple PHP + MySQL based Voting Management System built for local use with XAMPP.
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow the steps below to set up and run this project on your local machine.
 
@@ -18,14 +18,14 @@ Follow the steps below to set up and run this project on your local machine.
 
 ---
 
-### 📥 1. Download and Extract
+###  1. Download and Extract
 
 - Download the ZIP file of this repository.
 - Extract it to a folder on your PC.
 
 ---
 
-### 📁 2. Move Project to XAMPP
+###  2. Move Project to XAMPP
 
 - Copy the extracted project folder.
 - Paste it into your XAMPP `htdocs` directory:
@@ -36,7 +36,7 @@ Follow the steps below to set up and run this project on your local machine.
 
 ---
 
-### ⚙️ 3. Start XAMPP Services
+###  3. Start XAMPP Services
 
 - Open the **XAMPP Control Panel**.
 - Start the following services:
@@ -45,7 +45,7 @@ Follow the steps below to set up and run this project on your local machine.
 
 ---
 
-### 🗃️ 4. Import the Database
+###  4. Import the Database
 
 1. In your browser, go to:
 
@@ -74,7 +74,7 @@ Follow the steps below to set up and run this project on your local machine.
 
 ---
 
-### 🌐 5. Run the Project
+###  5. Run the Project
 
 - Open a new browser tab and go to:
 
@@ -92,7 +92,7 @@ Follow the steps below to set up and run this project on your local machine.
 
 ---
 
-### 🔐 6. Login Details
+###  6. Login Details
 
 Use the following credentials to log in:
 
@@ -103,7 +103,7 @@ Password: admin123
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Ensure that Apache and MySQL are running in XAMPP before accessing the project.
 - Do not change the database name or the SQL file name unless you update the code accordingly.
